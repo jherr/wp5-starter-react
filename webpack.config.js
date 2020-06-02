@@ -2,6 +2,18 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPlugin");
 
 module.exports = {
+  output: {
+    publicPath: "http://localhost:8080/",
+  },
+
+  resolve: {
+    extensions: [".jsx", ".js", ".json"],
+  },
+
+  devServer: {
+    port: 8080,
+  },
+
   module: {
     rules: [
       {
@@ -17,6 +29,7 @@ module.exports = {
       },
     ],
   },
+
   plugins: [
     new ModuleFederationPlugin({
       name: "starter",
