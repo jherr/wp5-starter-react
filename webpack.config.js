@@ -37,7 +37,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {},
-      shared: [],
+      shared: ["react"],
     }),
     new HtmlWebPackPlugin({
       template: "./src/index.html",
