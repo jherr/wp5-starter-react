@@ -4737,10 +4737,10 @@ webpack-sources@^1.4.3:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack@5.0.0-beta.18:
-  version "5.0.0-beta.18"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.18.tgz#ce49483c05cd9a130c133b68aba01d85c2193d58"
-  integrity sha512-v+kyUEA1sQnSP6gcchyEY/Jufb1XEbniCmA7uXvWXWFPQnN51ChW8liF0FgUre8yYI5jRqVsNHFw3H9rGCB8qw==
+webpack@5.0.0-beta.20:
+  version "5.0.0-beta.20"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.0.0-beta.20.tgz#a4798bbbe5bd27651f85f401f7b05ebc94a9399a"
+  integrity sha512-bIUAephArRkyWBzhLJ7OD5ys+jTNgANuJJy4+qhAWd5De4T0l/qKrVYdXZCbAj3PXUdxyEL5KsJHPQHacyfBGQ==
   dependencies:
     "@types/estree" "0.0.42"
     "@webassemblyjs/ast" "1.9.0"
