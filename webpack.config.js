@@ -33,7 +33,6 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "starter",
-      library: { type: "var", name: "starter" },
       filename: "remoteEntry.js",
       remotes: {},
       exposes: {},
