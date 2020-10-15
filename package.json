@@ -4,8 +4,11 @@
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=8080 npx serve",
     "start": "webpack-dev-server --open --mode development",
-    "start:live": "webpack-dev-server --open --mode development --liveReload"
+    "start:live": "webpack-dev-server --open --mode development --liveReload",
+    "docker:build": "docker build . -t wp5-starter",
+    "docker:run": "docker run -p 8080:8080 wp5-starter"
   },
   "license": "MIT",
   "author": {
